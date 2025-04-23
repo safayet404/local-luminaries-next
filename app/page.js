@@ -1,3 +1,4 @@
+import Activity from './components/Activity';
 import Customization from './components/Customization';
 import Slider from './components/Slider';
 
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <Slider />
       <Customization/>
+      <Activity />
     </div>
   );
 }
