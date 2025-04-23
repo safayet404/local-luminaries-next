@@ -24,10 +24,10 @@ const Navbar = () => {
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
     return (
         <div
-            class={`fixed top-0  left-0 right-0 ${scrolled ? "bg-sky-800" : "bg-transparent"}  z-50`}
+            className={`fixed top-0  left-0 right-0 ${scrolled ? "bg-sky-800" : "bg-transparent"}  z-50`}
         >
             <div
-                class="navbar container mx-auto flex justify-between items-center px-4 py-7"
+                className="navbar container mx-auto flex justify-between items-center px-4 py-7"
             >
 
                 <div>Local Luminaries</div>

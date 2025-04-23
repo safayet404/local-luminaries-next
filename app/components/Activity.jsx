@@ -37,7 +37,7 @@ const Activity = () => {
         <h1 className='tracking-widest uppercase font-medium text-4xl text-center text-black mt-3 mb-3' >Activities</h1>
       <div className='grid grid-cols-2 mx-auto gap-5 md:grid-cols-3 lg:grid-cols-4'>
         {activity.map((item)=> (
-            <div className='bg-white p-4 rounded-lg'>
+            <div key={item.id} className='bg-white p-4 rounded-lg'>
                 <Image alt=" " className='w-15 h-15 mb-3' src={item.image} />
                 <h1 className='text-black uppercase font-sans'>{item.title}</h1>
                 <p className='text-black text-xs mt-2'>{item.desc}</p>
