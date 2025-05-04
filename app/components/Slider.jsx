@@ -56,7 +56,7 @@ const Slider = () => {
               </div>
 
               <div className='absolute top-[50%] right-[5%] transform -translate-y-1/2 '>
-              <ul className='flex flex-col space-y-10 text-3xl'>
+              <ul className='flex flex-col space-y-10 text-2xl md:text-3xl'>
                 <li><CiFacebook /></li>
                 <li><CiTwitter /></li>
                 <li><CiInstagram /></li>

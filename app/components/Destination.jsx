@@ -27,7 +27,7 @@ const Destination = async () => {
 
                         <div className='absolute bottom-5 bg-sky-700  left-1/2 transform -translate-x-1/2'>
 
-                            <h1 className='text-white px-5 py-2 uppercase font-sans'>{item.name}</h1>
+                            <h1 className='text-white px-3 text-xs text-center text- py-2 uppercase font-sans'>{item.name}</h1>
                         </div>
                         </div>
 
