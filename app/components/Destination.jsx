@@ -11,7 +11,7 @@ const Destination = async () => {
     console.log(data)
     return (
         <div className='conainer mx-auto p-4 bg-[#CED0D1]'>
-            <h1 className='tracking-widest uppercase font-medium text-4xl text-center text-black mt-3 mb-3' >Activities</h1>
+            <h1 className='tracking-widest uppercase font-medium text-4xl text-center text-black mt-3 mb-3' >Activity</h1>
             <div className='grid grid-cols-2 mx-auto gap-5 md:grid-cols-3 lg:grid-cols-4'>
                 {data?.map((item) => (
                     <div key={item.id} className=' rounded-sm'>
