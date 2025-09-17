@@ -14,7 +14,7 @@ const activity = [
     },
     {
         id:2,
-        title : "Paragliding",
+        title : "Paraglidings",
         desc : "Wild landscapes and rough rivers and you will rafting.Wild landscapes and rough rivers and you will rafting.",
         image : pd
     },
