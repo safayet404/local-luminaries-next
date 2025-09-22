@@ -27,7 +27,7 @@ const activity = [
     {
         id:4,
         title : "Bicycle",
-        desc : "Thrilling off-road experience public roads maximum security.",
+        desc : "Thrilling off-road experience public roads maximum security level.",
         image : bicycle
     },
 ]
