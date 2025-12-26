@@ -8,7 +8,7 @@ import Image from 'next/image'
 const activity = [
     {
         id:1,
-        title : "Scuba Diving",
+        title : "Scuba Divings",
         desc : "Drenaline-pumping excursions for the experienced",
         image : sd
     },
